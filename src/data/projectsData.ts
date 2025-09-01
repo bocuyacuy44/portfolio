@@ -1,4 +1,3 @@
-import placeholder from '@assets/react.svg';
 import dental1 from '@assets/garutDentalCare.jpg';
 import dental2 from '@assets/garutDentalCare1.jpg';
 import dental3 from '@assets/garutDentalCare2.jpg';
