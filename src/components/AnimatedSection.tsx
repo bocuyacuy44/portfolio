@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 interface AnimatedSectionProps {
@@ -8,23 +8,25 @@ interface AnimatedSectionProps {
   delay?: number;
 }
 
-const AnimatedSection = ({ 
-  children, 
-  className = '', 
+const AnimatedSection = ({
+  children,
+  className = '',
   animation = 'fade-in-up',
-  delay = 0 
+  delay = 0
 }: AnimatedSectionProps) => {
   const { ref, hasIntersected } = useIntersectionObserver({
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
   });
 
+  const divRef = ref as React.RefObject<HTMLDivElement>;
+
   const animationClass = hasIntersected ? `animate-${animation}` : 'opacity-0';
   const delayClass = delay > 0 ? `animation-delay-${delay}` : '';
 
   return (
-    <div 
-      ref={ref} 
+    <div
+      ref={divRef}
       className={`${animationClass} ${delayClass} ${className}`}
     >
       {children}

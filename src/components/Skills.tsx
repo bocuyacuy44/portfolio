@@ -1,5 +1,16 @@
 import { useLanguage } from '../contexts/LanguageContext';
 
+interface SkillItem {
+  name: string;
+  level: number;
+}
+
+interface SkillCategory {
+  title: string;
+  icon: string;
+  skills: SkillItem[];
+}
+
 const Skills = () => {
   const { t } = useLanguage();
   const skillCategories = t('skills.categories');
@@ -22,7 +33,7 @@ const Skills = () => {
 
           {/* Skills Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {skillCategories.map((category, categoryIndex) => (
+            {skillCategories.map((category: SkillCategory, categoryIndex: number) => (
               <div
                 key={categoryIndex}
                 className="bg-gray-800/50 rounded-lg p-6 border border-gray-700 hover:border-green-500/50 transition-all duration-300 hover:transform hover:scale-105"
