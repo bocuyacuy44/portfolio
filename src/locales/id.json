@@ -1,0 +1,132 @@
+{
+  "header": {
+    "logo": "<YusupMuhamad />",
+    "nav": {
+      "home": "Beranda",
+      "about": "Tentang",
+      "skills": "Keahlian",
+      "projects": "Proyek",
+      "contact": "Kontak"
+    }
+  },
+  "hero": {
+    "greeting": "Halo, saya",
+    "name": "Yusup Muhamad",
+    "roles": ["Full Stack Developer", "Database", "Node.js", "Laravel"],
+    "description": "Bersemangat menciptakan solusi web inovatif dengan teknologi modern. Saya mengubah ide menjadi aplikasi yang elegan, scalable, dan user-friendly.",
+    "buttons": {
+      "viewWork": "Lihat Karya Saya",
+      "getInTouch": "Hubungi Saya"
+    }
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Developer yang bersemangat akan kecintaan pada kode dan hal hal baru",
+    "paragraphs": [
+      "Saya memiliki latar belakang di bidang Teknik Informatika dengan pengalaman dalam pengembangan aplikasi berbasis web serta pemahaman dasar manajemen jaringan komputer, termasuk konsep TCP/IP, konfigurasi, dan troubleshooting. Berbekal kemampuan analisis dan adaptasi yang baik, saya siap mendukung kelancaran operasional melalui pengelolaan data, pemeliharaan sistem, serta penerapan solusi yang efektif. Saya berkomitmen untuk terus mengembangkan keahlian di bidang teknologi informasi, manajemen data, keamanan digital.",
+      "Saya memiliki ketertarikan pada teknologi informasi, khususnya pengelolaan jaringan, keamanan data, dan pengembangan aplikasi. Selain itu, saya senang mempelajari teknologi terbaru, mengeksplorasi perangkat lunak, serta mengasah troubleshooting kemampuan mendukung efisiensi kerja. untuk",
+      "Perjalanan saya dalam pengembangan web dimulai 3 tahun yang lalu, dan sejak itu saya terus belajar dan beradaptasi dengan teknologi baru. Saya menyukai tantangan mengubah masalah kompleks menjadi solusi yang sederhana."
+      
+    ],
+    "techTitle": "Teknologi yang saya gunakan:",
+    "stats": [
+      { "number": "1+", "label": "Tahun Pengalaman" },
+      { "number": "2+", "label": "Proyek Selesai" },
+      { "number": "2+", "label": "Klien Puas" },
+      { "number": "24/7", "label": "Dukungan" }
+    ],
+    "codeComment": {
+      "name": "Yusup Muhamad",
+      "skills": "['React', 'Node.js', 'TypeScript']",
+      "passion": "Membuat hal hal baru"
+    }
+  },
+  "skills": {
+    "title": "Keahlian",
+    "subtitle": "Teknologi dan tools yang saya gunakan untuk mewujudkan ide",
+    "categories": [
+      {
+        "title": "Frontend",
+        "icon": "🎨",
+        "skills": [
+          { "name": "React.js", "level": 10 },
+          { "name": "TypeScript", "level": 25 },
+          { "name": "Tailwind CSS", "level": 20 },
+          { "name": "JavaScript", "level": 20 },
+          { "name": "HTML/CSS", "level": 40 }
+        ]
+      },
+      {
+        "title": "Backend",
+        "icon": "⚙️",
+        "skills": [
+          { "name": "Node.js", "level": 20 },
+          { "name": "PostgreSQL", "level": 20 },
+          { "name": "REST APIs", "level": 10 },
+          { "name": "MySQL", "level": 30} 
+        ]
+      },
+      {
+        "title": "Tools & Lainnya",
+        "icon": "🛠️",
+        "skills": [
+          { "name": "Git & GitHub", "level": 30 },
+          { "name": "Docker", "level": 10 },
+          { "name": "Figma", "level": 20 },
+          { "name": "VS Code", "level": 70 },
+          { "name": "Linux", "level": 30 }
+        ]
+      }
+    ],
+    "alwaysLearning": {
+      "title": "Selalu Belajar",
+      "description": "Dunia teknologi berkembang pesat, dan saya berkomitmen untuk terus belajar. Saat ini sedang mencoba hal hal baru seperti integrasi dengan teknologi AI, dan arsitektur cloud."
+    }
+  },
+  "projects": {
+    "title": "Proyek",
+    "subtitle": "Beberapa karya terbaru saya yang ingin saya bagikan",
+    "featuredTitle": "Proyek Unggulan",
+    "otherTitle": "Proyek Lainnya",
+    "buttons": {
+      "liveDemo": "Demo Langsung",
+      "github": "GitHub"
+    }
+  },
+  "contact": {
+    "title": "Mari Berkolaborasi",
+    "subtitle": "Punya proyek dalam pikiran? Mari bekerja sama untuk mewujudkan ide Anda!",
+    "connectTitle": "Mari Terhubung",
+    "followTitle": "Ikuti Saya",
+    "form": {
+      "name": "Nama",
+      "namePlaceholder": "Nama Anda",
+      "email": "Email",
+      "emailPlaceholder": "email.anda@example.com",
+      "message": "Pesan",
+      "messagePlaceholder": "Ceritakan tentang proyek Anda...",
+      "submit": "Kirim Pesan"
+    },
+    "info": [
+      {
+        "label": "Email",
+        "value": "yusupmuhamad9945@gmail.com"
+      },
+      {
+        "label": "Telepon",
+        "value": "+62 819-1281-2802"
+      },
+      {
+        "label": "Lokasi",
+        "value": "Bandung, Indonesia"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Full Stack Website Developer ",
+    "quickLinks": "Tautan Cepat",
+    "getInTouch": "Hubungi Saya",
+    "copyright": "Semua hak dilindungi.",
+    "builtWith": "Dibuat dengan ❤️ menggunakan React & Tailwind CSS"
+  }
+}

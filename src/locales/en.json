@@ -1,0 +1,135 @@
+{
+  "header": {
+    "logo": "<YusupMuhamad />",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Yusup Muhamad",
+    "roles": ["Full Stack Developer", "React Specialist", "Node.js Expert", "UI/UX Enthusiast"],
+    "description": "Passionate about creating innovative web solutions with modern technologies. I transform ideas into elegant, scalable, and user-friendly applications.",
+    "buttons": {
+      "viewWork": "View My Work",
+      "getInTouch": "Get In Touch"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate developer with a love for clean code and innovative solutions",
+    "paragraphs": [
+      "Hi! I'm Yusup, a passionate full-stack developer based in Jakarta, Indonesia. I specialize in creating exceptional digital experiences that are fast, accessible, and visually appealing.",
+      "My journey in web development started 3 years ago, and since then I've been constantly learning and adapting to new technologies. I love the challenge of turning complex problems into simple, beautiful solutions.",
+      "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge with the developer community."
+    ],
+    "techTitle": "Technologies I work with:",
+    "stats": [
+      { "number": "3+", "label": "Years Experience" },
+      { "number": "50+", "label": "Projects Completed" },
+      { "number": "20+", "label": "Happy Clients" },
+      { "number": "24/7", "label": "Support" }
+    ],
+    "codeComment": {
+      "name": "Yusup Muhamad",
+      "skills": "['React', 'Node.js', 'TypeScript']",
+      "passion": "Building amazing things"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies and tools I use to bring ideas to life",
+    "categories": [
+      {
+        "title": "Frontend",
+        "icon": "🎨",
+        "skills": [
+          { "name": "React.js", "level": 90 },
+          { "name": "TypeScript", "level": 85 },
+          { "name": "Next.js", "level": 80 },
+          { "name": "Tailwind CSS", "level": 95 },
+          { "name": "JavaScript", "level": 90 },
+          { "name": "HTML/CSS", "level": 95 }
+        ]
+      },
+      {
+        "title": "Backend",
+        "icon": "⚙️",
+        "skills": [
+          { "name": "Node.js", "level": 85 },
+          { "name": "Express.js", "level": 80 },
+          { "name": "MongoDB", "level": 75 },
+          { "name": "PostgreSQL", "level": 70 },
+          { "name": "REST APIs", "level": 85 },
+          { "name": "GraphQL", "level": 65 }
+        ]
+      },
+      {
+        "title": "Tools & Others",
+        "icon": "🛠️",
+        "skills": [
+          { "name": "Git & GitHub", "level": 90 },
+          { "name": "Docker", "level": 70 },
+          { "name": "AWS", "level": 65 },
+          { "name": "Figma", "level": 80 },
+          { "name": "VS Code", "level": 95 },
+          { "name": "Linux", "level": 75 }
+        ]
+      }
+    ],
+    "alwaysLearning": {
+      "title": "Always Learning",
+      "description": "The tech world evolves rapidly, and I'm committed to continuous learning. Currently exploring AI/ML integration, Web3 technologies, and advanced cloud architectures."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of my recent work that I'm proud to share",
+    "featuredTitle": "Featured Projects",
+    "otherTitle": "Other Projects",
+    "buttons": {
+      "liveDemo": "Live Demo",
+      "github": "GitHub"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's work together to bring your ideas to life!",
+    "connectTitle": "Let's Connect",
+    "followTitle": "Follow Me",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your Name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "Send Message"
+    },
+    "info": [
+      {
+        "label": "Email",
+        "value": "yusupmuhamad9945@gmail.com"
+      },
+      {
+        "label": "Phone",
+        "value": "+62 819-1281-2802"
+      },
+      {
+        "label": "Location",
+        "value": "Bandung, Indonesia"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Full Stack Developer passionate about creating innovative web solutions with modern technologies.",
+    "quickLinks": "Quick Links",
+    "getInTouch": "Get In Touch",
+    "copyright": "All rights reserved.",
+    "builtWith": "Built with ❤️ using React & Tailwind CSS"
+  }
+}
